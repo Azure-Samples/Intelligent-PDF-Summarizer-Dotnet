@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "pdf_summarizer_dotnet": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7040",
+      "launchBrowser": false
+    }
+  }
+}
