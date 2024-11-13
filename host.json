@@ -15,8 +15,10 @@
   "extensions": {
     "durableTask": {
       "storageProvider": {
-        "type": "azureStorage"
-      }
+        "type": "azureManaged",
+        "connectionStringName": "DTS_CONNECTION_STRING"
+      },
+      "hubName": "%TASKHUB_NAME%"
     }
   }
 }
