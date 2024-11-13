@@ -2,7 +2,7 @@
 
 name: PDF-Summarizer-Dotnet
 metadata:
-    template: azd-init@1.10.1
+    template: intelligent-pdf-summarizer-dotnet
 services:
     pdf-summarizer-dotnet:
         project: ./
