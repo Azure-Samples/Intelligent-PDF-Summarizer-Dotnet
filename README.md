@@ -1,3 +1,17 @@
+<!--
+---
+description: This end-to-end sample shows how implement an intelligent PDF summarizer using Durable Functions in C#. 
+page_type: sample
+products:
+- azure-functions
+- azure
+urlFragment: durable-func-pdf-summarizer-csharp
+languages:
+- csharp
+- bicep
+- azdeveloper
+---
+-->
 # Intelligent PDF Summarizer - .NET
 The purpose of this sample application is to demonstrate how Durable Functions can be leveraged to create intelligent applications, particularly in a document processing scenario. Order and durability are key here because the results from one activity are passed to the next. Also, calls to services like Cognitive Service or Azure Open AI can be costly and should not be repeated in the event of failures.
 
